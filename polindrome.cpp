@@ -24,7 +24,7 @@ int main() {
     std::getline(std::cin, input);
 
     if (isPalindrome(input)) {
-        std::cout << "Строка является палиндромом." << std::endl;
+        std::cout << "Строка является палиндромом." << std::endl;  //вывод строки, о том что она является палиндромом
     } else {
         std::cout << "Строка не является палиндромом." << std::endl;
     }
